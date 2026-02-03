@@ -1,9 +1,9 @@
 Assignment 4 — SOLID & Advanced OOP
-Overview
+1. Overview
 
 Java application for managing traffic accidents, refactored using SOLID principles and a layered architecture with JDBC and PostgreSQL.
 
-SOLID Principles
+2. SOLID Principles
 
 SRP: Controller, Service, Repository, Model have separate responsibilities.
 
@@ -15,7 +15,7 @@ ISP: Small, focused interfaces are used.
 
 DIP: Services depend on interfaces, not implementations.
 
-Advanced OOP
+3. Advanced OOP
 
 Generics: Generic CRUD repository.
 
@@ -25,7 +25,7 @@ Reflection: Runtime inspection of classes.
 
 Interfaces: Default and static methods demonstrated.
 
-OOP Design
+4. OOP Design
 
 Abstract base class with two subclasses.
 
@@ -35,7 +35,7 @@ Polymorphism via base class references.
 
 UML diagram included.
 
-Database
+5. Database
 
 Two related tables with a foreign key.
 
@@ -43,14 +43,15 @@ Constraints for data integrity.
 
 Sample insert statements provided.
 
-Architecture
+6. Architecture
 
 Controller → Service → Repository → Database.
 
-Demonstration
+7. Demonstration
 
 CRUD operations, validation errors, sorting, and reflection output are shown.
 
-Reflection
+8. Reflection
 
 The project demonstrates how SOLID principles improve code structure, readability, and maintainability.
+
