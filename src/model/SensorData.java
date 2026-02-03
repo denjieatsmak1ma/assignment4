@@ -3,7 +3,7 @@ package model;
 import java.time.LocalDateTime;
 
 public class SensorData {
-    private int id; // будет из БД
+    private int id;
     private double speed;
     private double acceleration;
     private LocalDateTime timestamp;
