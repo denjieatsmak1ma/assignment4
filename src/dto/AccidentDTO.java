@@ -1,5 +1,8 @@
 package dto;
 
+import model.AccidentEvent;
+import model.SensorData;
+
 public class AccidentDTO {
     private String type;
     private String location;
@@ -19,6 +22,10 @@ public class AccidentDTO {
         this.severity = severity;
         this.vehiclesInvolved = vehiclesInvolved;
         this.pedestrianInjured = pedestrianInjured;
+    }
+
+    public static AccidentDTO fromModel(AccidentEvent accident) {
+        return null;
     }
 
     public String getType() {
@@ -68,5 +75,12 @@ public class AccidentDTO {
     }
     public void setPedestrianInjured(Boolean pedestrianInjured) {
         this.pedestrianInjured = pedestrianInjured;
+    }
+
+    public AccidentEvent toModel() {
+        return null;
+    }
+
+    public void setSensorData(SensorData sensorData) {
     }
 }
