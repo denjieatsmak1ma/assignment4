@@ -129,7 +129,6 @@ public class AccidentRepositoryImpl implements CrudRepository<AccidentEvent> {
 
     @Override
     public void delete(int id) {
-        
         String sql = "DELETE FROM accident_events WHERE id=?";
 
         try (PreparedStatement st = connection.prepareStatement(sql)) {
